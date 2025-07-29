@@ -19,10 +19,16 @@ This app allows you to **Create, Read, Update, and Delete** student records.
 - Delete a student
 - Server-side rendering using EJS
 
----
+## 📸 Screenshots
 
+### 🏠 Home Page
 
----
+![Home Page](./screenshots/homePage.png)
 
+### ➕ Add Student Page
 
+![Add Student](./screenshots/add-student.png)
 
+### ✏️ Edit Student Form
+
+![Edit Student](./screenshots/edit-form.png)
