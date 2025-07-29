@@ -27,8 +27,8 @@ This app allows you to **Create, Read, Update, and Delete** student records.
 
 ### ➕ Add Student Page
 
-![Add Student](./screenshots/add-student.png)
+![Add Student](./screenshots/add-new-student.png)
 
 ### ✏️ Edit Student Form
 
-![Edit Student](./screenshots/edit-form.png)
+![Edit Student](./screenshots/edit.png)
