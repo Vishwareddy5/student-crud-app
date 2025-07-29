@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Student List</title>
+  </head>
+  <body>
+    <h1>📚 All Students</h1>
+
+    <a href="/students/new">➕ Add New Student</a>
+
+    <ul>
+      <% students.forEach(student => { %>
+      <li>
+        <strong><%= student.name %></strong>
+        (Roll: <%= student.roll %>, Branch: <%= student.branch %>) -
+        <a href="/students/<%= student._id %>/edit">✏️ Edit</a>
+      </li>
+      <form
+        action="/students/<%= student._id %>?_method=DELETE"
+        method="POST"
+        style="display: inline"
+      >
+        <button type="submit" onclick="return confirm('Are you sure?')">
+          🗑️ Delete
+        </button>
+      </form>
+
+      <% }) %>
+    </ul>
+  </body>
+</html>
