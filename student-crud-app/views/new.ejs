@@ -2,23 +2,26 @@
 <html>
   <head>
     <title>Add Student</title>
+    <link rel="stylesheet" href="/css/style.css" />
   </head>
   <body>
-    <h1>Add New Student</h1>
-    <form action="/students" method="POST">
-      <label>Name:</label>
-      <input type="text" name="name" required /><br /><br />
+    <div class="container">
+      <h1>Add New Student</h1>
+      <form action="/students" method="POST">
+        <label>Name:</label>
+        <input type="text" name="name" required /><br /><br />
 
-      <label>Roll Number:</label>
-      <input type="number" name="roll" required /><br /><br />
+        <label>Roll Number:</label>
+        <input type="number" name="roll" required /><br /><br />
 
-      <label>Branch:</label>
-      <input type="text" name="branch" /><br /><br />
+        <label>Branch:</label>
+        <input type="text" name="branch" /><br /><br />
 
-      <button type="submit">Submit</button>
-    </form>
+        <button type="submit">Submit</button>
+      </form>
 
-    <br />
-    <a href="/">🔙 Back to Student List</a>
+      <br />
+      <a href="/">🔙 Back to Student List</a>
+    </div>
   </body>
 </html>
